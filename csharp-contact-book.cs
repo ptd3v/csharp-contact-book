@@ -5,7 +5,13 @@ using System.Collections.Generic;
 
 namespace ContactBook
 {
-//Contact Book Area, go to bed Paul
+    //Singular Contact Entry
+    class Contact
+    {
+        public string Name { get; set; }
+        public string Email { get; set; }
+        public string Phone { get; set; }
+    }
 
+    //Multiple contact managements
   
-}
