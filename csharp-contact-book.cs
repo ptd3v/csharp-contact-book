@@ -15,3 +15,14 @@ namespace ContactBook
 
     //Multiple contact managements
     class ContactBook
+        private List<Contact> contacts;
+        public ContactBook()
+        {
+            contacts = new List<Contact>();
+        }
+
+        //Add a new contact to the contact book
+        public void AddContact(Contact contact)
+        {
+            contacts.Add(contact);
+        }
