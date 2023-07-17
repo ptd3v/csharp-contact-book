@@ -41,5 +41,18 @@ namespace ContactBook
     }
     //Main program class
     class Program
+        {
+        static void Main(string[] args)
+        {
+            //Define ContactBook
+            ContactBook contactBook = new ContactBook();
 
+            //Add sample contacts
+            contactBook.AddContact("John Doe", "1234567890", "john@example.com");
+            contactBook.AddContact("Jane Smith", "9876543210", "jane@example.com");
+
+            //Display contacts
+            contactBook.DisplayContacts();
+        }
+    }
 }
