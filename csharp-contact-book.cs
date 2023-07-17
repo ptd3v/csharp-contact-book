@@ -26,3 +26,16 @@ namespace ContactBook
         {
             contacts.Add(contact);
         }
+        //Display Contacts
+        public void DisplayContacts()
+        {
+            Console.WriteLine("Contact List:");
+            foreach (Contact contact in contacts)
+            {
+                Console.WriteLine($"Name: {contact.Name}");
+                Console.WriteLine($"Phone Number: {contact.PhoneNumber}");
+                Console.WriteLine($"Email: {contact.Email}");
+                Console.WriteLine("--------------------");
+            }
+        }
+    }
