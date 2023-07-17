@@ -39,3 +39,7 @@ namespace ContactBook
             }
         }
     }
+    //Main program class
+    class Program
+
+}
